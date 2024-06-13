@@ -309,4 +309,14 @@
     <div class="p-4 sm:ml-64 m-8">
         <router-view />
     </div>
+
+<PiePagina></PiePagina>
 </template>
+<script>
+import PiePagina from './PiePagina.vue'
+export default {
+  components: {
+    PiePagina
+  }
+}
+</script>
