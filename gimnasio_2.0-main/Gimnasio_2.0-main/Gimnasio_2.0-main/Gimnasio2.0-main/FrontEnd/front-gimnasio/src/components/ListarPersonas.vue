@@ -1,7 +1,7 @@
 <template>
     <div class="container">
         <table class="w-full text-m text-left rtl:text-right text-black dark:text-blue-100 custom-table">
-            <thead class="text-m text-white uppercase bg-black dark:text-white">
+            <thead class="text-m text-white uppercase bg-black dark:text-gray-900">
                 <tr>
                     <th scope="col">#</th>
                     <th scope="col">Foto</th>
