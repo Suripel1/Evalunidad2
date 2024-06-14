@@ -91,7 +91,7 @@
                         <p class="mb-3 mt-2 text-sm text-gray-500"><a href="/forgot-password"
                                 class="text-blue-800 hover:text-blue-600">¿Restablecer su contraseña?</a></p>
                         <button type="submit"
-                            class="inline-flex w-full items-center justify-center rounded-lg bg-black p-2 py-3 text-sm font-medium text-white outline-none focus:ring-2 focus:ring-black focus:ring-offset-1 disabled:bg-gray-400">Continue</button>
+                            class="inline-flex w-full items-center justify-center rounded-lg bg-black p-2 py-3 text-sm font-medium text-gray-900 outline-none focus:ring-2 focus:ring-black focus:ring-offset-1 disabled:bg-gray-400">Continue</button>
                     </form>
                 </div>
                 <div class="mt-6 text-center text-sm text-slate-600">
