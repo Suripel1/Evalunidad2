@@ -1,7 +1,7 @@
 <template>
     <button data-drawer-target="sidebar-multi-level-sidebar" data-drawer-toggle="sidebar-multi-level-sidebar"
         aria-controls="sidebar-multi-level-sidebar" type="button"
-        class="inline-flex items-center p-2 mt-2 ms-3 text-sm text-gray-500 rounded-lg sm:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600">
+        class="inline-flex items-center p-2 mt-2 ms-3 text-sm text-gray-500 rounded-lg sm:hidden hover:bg-gray-600 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600">
         <span class="sr-only">Open sidebar</span>
         <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20"
             xmlns="http://www.w3.org/2000/svg">
@@ -14,12 +14,12 @@
     <aside id="sidebar-multi-level-sidebar"
         class="fixed top-0 left-0 z-40 w-64 h-screen transition-transform -translate-x-full sm:translate-x-0"
         aria-label="Sidebar">
-        <div class="h-full px-3 py-4 overflow-y-auto bg-gray-50 dark:bg-gray-800">
+        <div class="h-full px-3 py-4 overflow-y-auto bg-black dark:bg-gray-800">
             <ul class="space-y-2 font-medium">
                 <li>
                     <a href="#"
-                        class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
-                        <svg class="w-5 h-5 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white"
+                        class="flex items-center p-2 text-white rounded-lg dark:text-white hover:bg-red-600 dark:hover:bg-gray-700 group">
+                        <svg class="w-5 h-5 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-white dark:group-hover:text-white"
                             aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor"
                             viewBox="0 0 22 21">
                             <path
@@ -34,7 +34,7 @@
                 </li>
                 <li>
                     <a href="#"
-                        class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
+                        class="flex items-center p-2 text-white rounded-lg dark:text-white hover:bg-red-600 dark:hover:bg-gray-700 group">
                         <span class="material-symbols-outlined"> apartment </span>
                         <RouterLink to="/sucursales">
                             <span class="ms-3">Sucursales</span>
@@ -43,7 +43,7 @@
                 </li>
                 <li>
                     <button type="button"
-                        class="flex items-center w-full p-2 text-base text-gray-900 transition duration-75 rounded-lg group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
+                        class="flex items-center w-full p-2 text-base text-white transition duration-75 rounded-lg group hover:bg-red-600 dark:text-white dark:hover:bg-gray-700"
                         aria-controls="dropdown-example5" data-collapse-toggle="dropdown-example5">
                         <span class="material-symbols-outlined"> grocery </span>
                         <span class="flex-1 ms-3 text-left rtl:text-right whitespace-nowrap">Nutrición</span>
@@ -56,28 +56,28 @@
                     <ul id="dropdown-example5" class="hidden py-2 space-y-2">
                         <li>
                             <a href="#"
-                                class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">Dietas</a>
+                                class="flex items-center w-full p-2 text-white transition duration-75 rounded-lg pl-11 group hover:bg-red-600 dark:text-white dark:hover:bg-gray-700">Dietas</a>
                         </li>
                         <li>
                             <a href="#"
-                                class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">Indicador
+                                class="flex items-center w-full p-2 text-white transition duration-75 rounded-lg pl-11 group hover:bg-red-600 dark:text-white dark:hover:bg-gray-700">Indicador
                                 Nutricional</a>
                         </li>
                         <li>
                             <a href="#"
-                                class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">Pregunta
+                                class="flex items-center w-full p-2 text-white transition duration-75 rounded-lg pl-11 group hover:bg-red-600 dark:text-white dark:hover:bg-gray-700">Pregunta
                                 Nutricional</a>
                         </li>
                         <li>
                             <a href="#"
-                                class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">Valoración
+                                class="flex items-center w-full p-2 text-white transition duration-75 rounded-lg pl-11 group hover:bg-red-600 dark:text-white dark:hover:bg-gray-700">Valoración
                                 Nutricional</a>
                         </li>
                     </ul>
                 </li>
                 <li>
                     <button type="button"
-                        class="flex items-center w-full p-2 text-base text-gray-900 transition duration-75 rounded-lg group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
+                        class="flex items-center w-full p-2 text-base text-white transition duration-75 rounded-lg group hover:bg-red-600 dark:text-white dark:hover:bg-gray-700"
                         aria-controls="dropdown-example2" data-collapse-toggle="dropdown-example2">
                         <span class="material-symbols-outlined"> sports_gymnastics </span>
                         <span class="flex-1 ms-3 text-left rtl:text-right whitespace-nowrap">Entrenamiento</span>
@@ -91,33 +91,33 @@
                         <li>
                             <RouterLink to="/ejercicios">
                             <a href="#"
-                                class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">Ejercicios</a>
+                                class="flex items-center w-full p-2 text-white transition duration-75 rounded-lg pl-11 group hover:bg-red-600 dark:text-white dark:hover:bg-gray-700">Ejercicios</a>
                             </RouterLink>
                             </li>
                         <li>
                             <a href="#"
-                                class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">Rutinas</a>
+                                class="flex items-center w-full p-2 text-white transition duration-75 rounded-lg pl-11 group hover:bg-red-600 dark:text-white dark:hover:bg-gray-700">Rutinas</a>
                         </li>
                         <li>
                             <a href="#"
-                                class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">Programas
+                                class="flex items-center w-full p-2 text-white transition duration-75 rounded-lg pl-11 group hover:bg-red-600 dark:text-white dark:hover:bg-gray-700">Programas
                                 Saludables</a>
                         </li>
                         <li>
                             <a href="#"
-                                class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">Rutinas
+                                class="flex items-center w-full p-2 text-white transition duration-75 rounded-lg pl-11 group hover:bg-red-600 dark:text-white dark:hover:bg-gray-700">Rutinas
                                 Ejercicios</a>
                         </li>
                         <li>
                             <a href="#"
-                                class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">Detalle
+                                class="flex items-center w-full p-2 text-white transition duration-75 rounded-lg pl-11 group hover:bg-red-600 dark:text-white dark:hover:bg-gray-700">Detalle
                                 programas</a>
                         </li>
                     </ul>
                 </li>
                 <li>
                     <button type="button"
-                        class="flex items-center w-full p-2 text-base text-gray-900 transition duration-75 rounded-lg group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
+                        class="flex items-center w-full p-2 text-base text-white transition duration-75 rounded-lg group hover:bg-red-600 dark:text-white dark:hover:bg-gray-700"
                         aria-controls="dropdown-example7" data-collapse-toggle="dropdown-example7">
                         <span class="material-symbols-outlined"> fitness_center </span>
                         <span class="flex-1 ms-3 text-left rtl:text-right whitespace-nowrap">Equipamiento</span>
@@ -130,19 +130,19 @@
                     <ul id="dropdown-example7" class="hidden py-2 space-y-2">
                         <li>
                             <a href="#"
-                                class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">Equipamiento</a>
+                                class="flex items-center w-full p-2 text-white transition duration-75 rounded-lg pl-11 group hover:bg-red-600 dark:text-white dark:hover:bg-gray-700">Equipamiento</a>
                         </li>
                         <li>
                             <a href="#"
-                                class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">Prestamo</a>
+                                class="flex items-center w-full p-2 text-white transition duration-75 rounded-lg pl-11 group hover:bg-red-600 dark:text-white dark:hover:bg-gray-700">Prestamo</a>
                         </li>
                     </ul>
                 </li>
                 <li>
                     <button type="button"
-                        class="flex items-center w-full p-2 text-base text-gray-900 transition duration-75 rounded-lg group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
+                        class="flex items-center w-full p-2 text-base text-white transition duration-75 rounded-lg group hover:bg-red-600 dark:text-white dark:hover:bg-gray-700"
                         aria-controls="dropdown-example6" data-collapse-toggle="dropdown-example6">
-                        <svg class="flex-shrink-0 w-5 h-5 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white"
+                        <svg class="flex-shrink-0 w-5 h-5 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-white dark:group-hover:text-white"
                             aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor"
                             viewBox="0 0 20 18">
                             <path
@@ -159,34 +159,34 @@
                         <li>
                             <RouterLink to="/personas">
                                 <a href="#"
-                                    class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">Personas</a>
+                                    class="flex items-center w-full p-2 text-white transition duration-75 rounded-lg pl-11 group hover:bg-red-600 dark:text-white dark:hover:bg-gray-700">Personas</a>
                             </RouterLink>
                         </li>
                         <li>
                             <a href="#"
-                                class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">Áreas</a>
+                                class="flex items-center w-full p-2 text-white transition duration-75 rounded-lg pl-11 group hover:bg-red-600 dark:text-white dark:hover:bg-gray-700">Áreas</a>
                         </li>
                         <li>
                             <a href="#"
-                                class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">Puestos</a>
+                                class="flex items-center w-full p-2 text-white transition duration-75 rounded-lg pl-11 group hover:bg-red-600 dark:text-white dark:hover:bg-gray-700">Puestos</a>
                         </li>
                         <li>
                             <a href="#"
-                                class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">Empleados</a>
+                                class="flex items-center w-full p-2 text-white transition duration-75 rounded-lg pl-11 group hover:bg-red-600 dark:text-white dark:hover:bg-gray-700">Empleados</a>
                         </li>
                         <li>
                             <a href="#"
-                                class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">Intructores</a>
+                                class="flex items-center w-full p-2 text-white transition duration-75 rounded-lg pl-11 group hover:bg-red-600 dark:text-white dark:hover:bg-gray-700">Intructores</a>
                         </li>
                         <li>
                             <a href="#"
-                                class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">Horarios</a>
+                                class="flex items-center w-full p-2 text-white transition duration-75 rounded-lg pl-11 group hover:bg-red-600 dark:text-white dark:hover:bg-gray-700">Horarios</a>
                         </li>
                     </ul>
                 </li>
                 <li>
                     <button type="button"
-                        class="flex items-center w-full p-2 text-base text-gray-900 transition duration-75 rounded-lg group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
+                        class="flex items-center w-full p-2 text-base text-white transition duration-75 rounded-lg group hover:bg-red-600 dark:text-white dark:hover:bg-gray-700"
                         aria-controls="dropdown-example8" data-collapse-toggle="dropdown-example8">
                         <span class="material-symbols-outlined"> construction </span>
                         <span class="flex-1 ms-3 text-left rtl:text-right whitespace-nowrap">Recursos Materiales</span>
@@ -199,25 +199,25 @@
                     <ul id="dropdown-example8" class="hidden py-2 space-y-2">
                         <li>
                             <a href="#"
-                                class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">Instalaciones</a>
+                                class="flex items-center w-full p-2 text-white transition duration-75 rounded-lg pl-11 group hover:bg-red-600 dark:text-white dark:hover:bg-gray-700">Instalaciones</a>
                         </li>
                         <li>
                             <a href="#"
-                                class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">Equipamiento</a>
+                                class="flex items-center w-full p-2 text-white transition duration-75 rounded-lg pl-11 hover:bg-red-600 dark:text-white dark:hover:bg-gray-700">Equipamiento</a>
                         </li>
                         <li>
                             <a href="#"
-                                class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">Mantenimiento</a>
+                                class="flex items-center w-full p-2 text-white transition duration-75 rounded-lg pl-11 group hover:bg-red-600 dark:text-white dark:hover:bg-gray-700">Mantenimiento</a>
                         </li>
                         <li>
                             <a href="#"
-                                class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">Prestamo</a>
+                                class="flex items-center w-full p-2 text-white transition duration-75 rounded-lg pl-11 group hover:bg-red-600 dark:text-white dark:hover:bg-gray-700">Prestamo</a>
                         </li>
                     </ul>
                 </li>
                 <li>
                     <button type="button"
-                        class="flex items-center w-full p-2 text-base text-gray-900 transition duration-75 rounded-lg group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
+                        class="flex items-center w-full p-2 text-base text-white transition duration-75 rounded-lg group hover:bg-red-600 dark:text-white dark:hover:bg-gray-700"
                         aria-controls="dropdown-example3" data-collapse-toggle="dropdown-example3">
                         <span class="material-symbols-outlined"> badge </span>
                         <span class="flex-1 ms-3 text-left rtl:text-right whitespace-nowrap">Membresias</span>
@@ -230,19 +230,19 @@
                     <ul id="dropdown-example3" class="hidden py-2 space-y-2">
                         <li>
                             <a href="#"
-                                class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">Membresias</a>
+                                class="flex items-center w-full p-2 text-white transition duration-75 rounded-lg pl-11 group hover:bg-red-600 dark:text-white dark:hover:bg-gray-700">Membresias</a>
                         </li>
                         <li>
                             <a href="#"
-                                class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">Miembros</a>
+                                class="flex items-center w-full p-2 text-white transition duration-75 rounded-lg pl-11 group hover:bg-red-600 dark:text-white dark:hover:bg-gray-700">Miembros</a>
                         </li>
                     </ul>
                 </li>
                 <li>
                     <button type="button"
-                        class="flex items-center w-full p-2 text-base text-gray-900 transition duration-75 rounded-lg group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
+                        class="flex items-center w-full p-2 text-base text-white transition duration-75 rounded-lg group hover:bg-red-600 dark:text-white dark:hover:bg-gray-700"
                         aria-controls="dropdown-example1" data-collapse-toggle="dropdown-example1">
-                        <svg class="flex-shrink-0 w-5 h-5 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white"
+                        <svg class="flex-shrink-0 w-5 h-5 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-white dark:group-hover:text-white"
                             aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor"
                             viewBox="0 0 18 20">
                             <path
@@ -258,34 +258,34 @@
                     <ul id="dropdown-example1" class="hidden py-2 space-y-2">
                         <li>
                             <a href="#"
-                                class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">Productos</a>
+                                class="flex items-center w-full p-2 text-white transition duration-75 rounded-lg pl-11 group hover:bg-red-600 dark:text-white dark:hover:bg-gray-700">Productos</a>
                         </li>
                         <li>
                             <a href="#"
-                                class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">Detalle
+                                class="flex items-center w-full p-2 text-white transition duration-75 rounded-lg pl-11 group hover:bg-red-600 dark:text-white dark:hover:bg-gray-700">Detalle
                                 de productos</a>
                         </li>
                         <li>
                             <a href="#"
-                                class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">Promociones</a>
+                                class="flex items-center w-full p-2 text-white transition duration-75 rounded-lg pl-11 group hover:bg-red-600 dark:text-white dark:hover:bg-gray-700">Promociones</a>
                         </li>
                         <li>
                             <a href="#"
-                                class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">Detalle
+                                class="flex items-center w-full p-2 text-white transition duration-75 rounded-lg pl-11 group hover:bg-red-600 dark:text-white dark:hover:bg-gray-700">Detalle
                                 de promociones</a>
                         </li>
                         <li>
                             <a href="#"
-                                class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">Pedidos</a>
+                                class="flex items-center w-full p-2 text-white transition duration-75 rounded-lg pl-11 group hover:bg-red-600 dark:text-white dark:hover:bg-gray-700">Pedidos</a>
                         </li>
                         <li>
                             <a href="#"
-                                class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">Detalle
+                                class="flex items-center w-full p-2 text-white transition duration-75 rounded-lg pl-11 group hover:bg-red-600 dark:text-white dark:hover:bg-gray-700">Detalle
                                 de pedidos</a>
                         </li>
                         <li>
                             <a href="#"
-                                class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">Transaccion
+                                class="flex items-center w-full p-2 text-white transition duration-75 rounded-lg pl-11 group hover:bg-red-600 dark:text-white dark:hover:bg-gray-700">Transaccion
                                 Pagos</a>
                         </li>
                     </ul>
@@ -293,8 +293,8 @@
                 <li>
                     <RouterLink to="/">
                         <a href="#"
-                            class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
-                            <svg class="flex-shrink-0 w-5 h-5 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white"
+                            class="flex items-center p-2 text-white rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
+                            <svg class="flex-shrink-0 w-5 h-5 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-white dark:group-hover:text-white"
                                 aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 16">
                                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
                                     stroke-width="2"
